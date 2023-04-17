@@ -61,13 +61,15 @@ function loadMainPrompts() {
                   {
                     name: "Remove Department",
                     value: "REMOVE_DEPARTMENT"
+                  },
+                  {
+                    name: "Quit",
+                    value: "QUIT"
                   }
             ]
         }
     ]).then(res => {
         let choice = res.choice;
-        console.log(choice);
-        console.log(res);
         switch (choice) {
             case "VIEW_EMPLOYEES":
                 viewEmployees();
@@ -134,7 +136,6 @@ function viewEmployeesByDepartment() {
     db.findAllDepartments()
       .then(([rows]) => {
         let departments = rows;
-        console.table(departments);
         const departmentChoices = departments.map(({ id, name }) => ({
           name: name,
           value: id
