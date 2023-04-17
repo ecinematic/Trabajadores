@@ -22,7 +22,9 @@ Keeping track of your employees shouldn't distract you from running your busines
 Trabajadores is designed to ensure you are able to access your database information in a concise and efficient way. 
 
 ## Screenshot  
+![image](https://user-images.githubusercontent.com/40043251/232580847-4fc87e94-7b71-437a-adf7-fce7ef195596.png)
 
+![image](https://user-images.githubusercontent.com/40043251/232580892-f8b3f860-8feb-4b28-8b75-57a706b5da53.png)
 
 ## Installation
     
